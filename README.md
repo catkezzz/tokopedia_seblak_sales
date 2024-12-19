@@ -1,2 +1,2 @@
-# tokopedia_seblak_sales
+# Tokopedia Seblak Sales
 Exploratory Data Analysis for product Seblak in Tokopedia
