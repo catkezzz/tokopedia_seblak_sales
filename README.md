@@ -6,6 +6,8 @@ However, before starting a dropshipping business for seblak, it is crucial to an
 
 This project aims to sharpen my data analysis skills, which are essential for making informed decisions in a business model like dropshipping. While direct access to Tokopedia’s sales data is unavailable, web scraping techniques can be employed to gather publicly accessible data on the platform. This data can then be analyzed to understand trends and evaluate the market potential of seblak on Tokopedia.
 
+The codes and other details of this project can be seen in the 'EDA_Seblak_Indonesian.ipynb' file
+
 ## Objective
 - Gather sales data for seblak from Tokopedia through web scraping, including details such as product names, prices, sales volume, seller locations, and ratings.
 - Analyze the factors that influence customer interest in the product.
