@@ -6,7 +6,7 @@ However, before starting a dropshipping business for seblak, it is crucial to an
 
 This project aims to sharpen my data analysis skills, which are essential for making informed decisions in a business model like dropshipping. While direct access to Tokopedia’s sales data is unavailable, web scraping techniques can be employed to gather publicly accessible data on the platform. This data can then be analyzed to understand trends and evaluate the market potential of seblak on Tokopedia.
 
-The codes and other details of this project can be seen in the 'EDA_Seblak_Indonesian.ipynb' file
+**The codes and other details of this project can be seen in the `EDA_Seblak_Indonesian.ipynb` file**
 
 ## Objective
 - Gather sales data for seblak from Tokopedia through web scraping, including details such as product names, prices, sales volume, seller locations, and ratings.
@@ -50,7 +50,7 @@ Before conducting the analysis, it is necessary to describe relevant questions r
 
 - `How`: How do customers perceive seblak products on Tokopedia?
 
-### 1. Statistic Description of product price, amount sold, and product rating
+### 1. Statistic Descriptions of product price, amount sold, and product rating
 Analyze the distribution of data for the product price, quantity sold, and product rating 
 
 ![image](https://github.com/user-attachments/assets/91b3b84e-5098-4d10-963e-e00aae72e6b3)
@@ -70,6 +70,44 @@ Analyze the distribution of data for the product price, quantity sold, and produ
 - The median is close to the mean, indicating a fairly consistent distribution of high ratings, which is around 4.9
 - The standard deviation is `0.17`, indicating very low variability in ratings. Most ratings are very close to the mean
 - Skewness is `-3.09`, which is highly skewed. The distribution of ratings is highly skewed to the left, meaning that most sales have high ratings (close to 5)
+
+### 2. What is the maximum and minimum profit that can be obtained from selling Seblak in Tokopedia?
+Even though the data is skewed, the data will be considered normally distributed with a confidence level of 95%.
+
+**Minimum Profit**: 
+### 7071490
+**Maximum Profit**: 
+### 11038932
+**Average Profit**
+### 9055211
+
+With 95% confidence, monthly income from selling seblak will be between Rp7,071,490 and Rp11,038,932
+
+### 3. Can the sales area, whether inside or outside Jabodetabek, affect the product price?
+The hypothesis that needs to be analyzed is:
+
+H0: price of goods in Jabodetabek = price of goods outside Jabodetabek
+
+H1: price of goods in Jabodetabek! = price of goods outside Jabodetabek
+
+Using Two-Sample Independent Test, the result is:
+
+- The `t-statistic` value is -1.538, indicating that the price difference between seblak in Jabodetabek and outside Jabodetabek is relatively small
+- The `p-value` value is 0.124, meaning it is greater than the significance level of 0.05. So H0 is accepted and it is concluded that the price of goods in Jabodetabek and outside Jabodetabek is the same.
+
+### 4. Can the price amount affect the rating obtained for the product?
+Similar to the process of determining the upper bound and lower bound, the data will be considered as normally distributed data, so the Pearson correlation test is used.
+
+The hypotheses that need to be analyzed are:
+
+H0: There is no relationship between product price and product rating
+
+H1: There is a relationship between product price and the number of product ratings
+
+The results are:
+- Pearson correlation is `0.007`. Because it is close to 0, it shows that product price and product rating do not have a linear relationship. Customers do not tend to give higher or lower ratings based on product price.
+- The p-value obtained is `0.84` which is much greater than the significance level of `0.05`. Hypothesis 0 fails to be rejected, there is no significant relationship between price and product rating
+
 
 
 
