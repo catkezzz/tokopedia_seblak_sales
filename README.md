@@ -33,5 +33,46 @@ Here's a preview of the cleaned data.
 
 ![image](https://github.com/user-attachments/assets/e2a7f1d4-1737-493e-8686-f274b765612b)
 
+## Analysis
+
+Before conducting the analysis, it is necessary to describe relevant questions regarding seblak sales:
+- `What`: Is seblak the right product in a dropship business scheme?
+
+- `Why`: Why is this analysis important to do before starting a dropship business?
+
+- `Who`: Who can be the target market for this product?
+
+- `Where`: Where is the ideal place for seblak products to be sold, considering production prices?
+
+- `When`: When will this data be taken and analyzed?
+
+- `How`: How do customers perceive seblak products on Tokopedia?
+
+### 1. Statistic Description of product price, amount sold, and product rating
+Analyze the distribution of data for the product price, quantity sold, and product rating 
+
+![image](https://github.com/user-attachments/assets/91b3b84e-5098-4d10-963e-e00aae72e6b3)
+
+**Product price**:
+- The average price is greater than the median. There are several prices with extreme values ​​that pull the average price upwards
+- The standard deviation of `22548.20` is very high, there are significant price fluctuations in the dataset
+- Skewness is `4.58`, including highly skewed. The price distribution is highly skewed to the right, meaning that most of the price data has low values
+
+**Amount Sold**:
+- The average number of sales is much larger than the median. There are some extreme values ​​that pull the average number of sales upwards
+- The standard deviation of `1217.75` is very high, indicating quite extreme variation in the number of sales
+- Skewness is `5.24`, highly skewed. The distribution of the number of sales is highly skewed to the right, meaning that most sales have low numbers
+
+**Product Rating**
+- The majority of products have very high ratings, close to 5
+- The median is close to the mean, indicating a fairly consistent distribution of high ratings, which is around 4.9
+- The standard deviation is `0.17`, indicating very low variability in ratings. Most ratings are very close to the mean
+- Skewness is `-3.09`, which is highly skewed. The distribution of ratings is highly skewed to the left, meaning that most sales have high ratings (close to 5)
+
+
+
+
+
+
 
 
